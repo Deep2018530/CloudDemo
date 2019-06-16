@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed1341d-12dc-4e91-9817-4a15ad3e6235" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/controller/DeptController_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/controller/DeptController_Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/target/classes/com/lanqiao/cloud/controller/DeptController_Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/target/classes/com/lanqiao/cloud/controller/DeptController_Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/DeptProvider8001_APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/DeptProvider8001_APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/com/lanqiao/cloud/DeptProvider8001_APP.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/com/lanqiao/cloud/DeptProvider8001_APP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/com/lanqiao/cloud/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/com/lanqiao/cloud/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,9 +87,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="233">
-                <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="266">
+                <caret line="20" column="4" selection-end-line="26" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="357" />
     <option name="width" value="1235" />
     <option name="height" value="1103" />
@@ -337,7 +326,7 @@
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4988067" weight="0.5623656" />
       <window_info id="Web" order="6" sideWeight="0.50119334" side_tool="true" weight="0.37868634" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.43801653" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.4091521" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3458445" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.51742625" />
@@ -346,7 +335,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.30655956" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.29490617" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.7613941" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.80563" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -619,9 +608,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="233">
-            <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="20" column="4" selection-end-line="26" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
