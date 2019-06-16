@@ -87,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <first_editor relative-caret-position="133">
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -325,7 +325,7 @@
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4988067" weight="0.5623656" />
       <window_info id="Web" order="6" sideWeight="0.50119334" side_tool="true" weight="0.37868634" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.43801653" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.44772118" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.54959786" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.51742625" />
@@ -608,8 +608,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <first_editor relative-caret-position="133">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
