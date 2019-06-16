@@ -1,12 +1,13 @@
 
 
 ## 基础知识
-1. Eureka服务注册与发现  
-2. Ribbon负载均衡    
-3. Feign负载均衡  
-4. Hystrix断路器  
-5. zuul路由网关  
-6. SpringCloud Config分布式配置中心
+###1. Eureka服务注册与发现 
+####    eureka自我保护机制  
+###2. Ribbon负载均衡    
+###3. Feign负载均衡  
+###4. Hystrix断路器  
+###5. zuul路由网关  
+###6. SpringCloud Config分布式配置中心
 
 ## sql  
 ```mysql
