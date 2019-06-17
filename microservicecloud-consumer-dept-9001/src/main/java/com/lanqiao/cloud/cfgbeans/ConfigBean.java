@@ -1,5 +1,6 @@
 package com.lanqiao.cloud.cfgbeans;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -12,7 +13,13 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class ConfigBean {
 
+    /** 
+     * @description 对Configbean进行注解@LoadBalanced 获得Rest时加入Ribbon的配置
+     * @author DeepSleeping
+     * @date 2019/6/17 19:44
+     */
     @Bean
+    @LoadBalanced
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
