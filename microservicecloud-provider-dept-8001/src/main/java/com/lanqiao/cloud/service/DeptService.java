@@ -1,7 +1,6 @@
 package com.lanqiao.cloud.service;
 
 import com.lanqiao.springcloud.entity.Dept;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
