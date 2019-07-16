@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed1341d-12dc-4e91-9817-4a15ad3e6235" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/target/microservicecloud-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/target/microservicecloud.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/target/microservicecloud.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +27,15 @@
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8001/microservicecloud-provider-dept-8002/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8002/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8003/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -45,12 +58,12 @@
     <favorites_list name="microservicecloud" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,18 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/myrule/RandomRule_deepz.java">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="method#initWithNiwsConfig#0;class#RandomRule_deepz#0" />
-                <element signature="e#1064#1105#1" />
-                <element signature="e#1268#1320#1" />
-              </folding>
+            <state relative-caret-position="421">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -78,20 +83,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="83">
-                <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="361">
+                <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/myrule/MySlefRule.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="152">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/lanqiao/springcloud/service/DeptClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +113,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/cfgbeans/ConfigBean.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/controller/DeptController_Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/DeptConsumer9001_Feign_App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +150,8 @@
       <list>
         <option value="mybatis-config" />
         <option value="mybatis-mapper" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -129,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-api/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/lanqiao/springcloud/entity/Dept.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/dao/DeptDao.java" />
@@ -170,10 +201,15 @@
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/DeptProvider8002_APP.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/myrule/RandomRule_deepz.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/myrule/MySlefRule.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/lanqiao/springcloud/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/controller/DeptController_Consumer.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/DeptConsumer9001_Feign_App.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java" />
       </list>
     </option>
   </component>
@@ -186,15 +222,25 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="826" />
-    <option name="y" value="170" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1202" />
+    <option name="y" value="50" />
     <option name="width" value="1400" />
-    <option name="height" value="870" />
+    <option name="height" value="1212" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,53 +250,122 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -258,21 +373,39 @@
               <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
-              <item name="myrule" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,6 +417,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563247537981" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/lanqiao/cloud/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -291,22 +425,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main\java\com" />
       <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main\java" />
-      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main" />
-      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8003\src\main\resources" />
-      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8002\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lanqiao.cloud" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main\java\com" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\myproject\CloudDemo\microservicecloud-consumer-dept-feign\src\main\resources" />
+      <recent name="E:\workspace\myproject\CloudDemo\microservicecloud-consumer-dept-feign\src\main\java" />
+      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main\resources" />
       <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main\java" />
+      <recent name="E:\StudySoftware\ideal\workspace\project\microservicecloud\microservicecloud-provider-dept-8001\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,7 +461,7 @@
     </option>
     <option name="contentProportion" value="0.22404371" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptConsumer9001_App">
+  <component name="RunManager">
     <configuration name="DeptConsumer9001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservicecloudconsumerdept9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lanqiao.cloud.DeptConsumer9001_App" />
@@ -363,15 +497,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.DeptConsumer9001_App" />
-        <item itemvalue="Spring Boot.DeptProvider8003_APP" />
-        <item itemvalue="Spring Boot.DeptProvider8002_APP" />
-        <item itemvalue="Spring Boot.DeptProvider8001_APP" />
-        <item itemvalue="Spring Boot.EurekaServer7003_App" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="showModules" value="false" />
@@ -383,6 +508,16 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ed1341d-12dc-4e91-9817-4a15ad3e6235" name="Default Changelist" comment="" />
+      <created>1563246055411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563246055411</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -393,18 +528,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="636" y="142" width="1120" height="696" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50119334" side_tool="true" weight="0.37935656" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4988067" weight="0.3314501" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4988067" visible="true" weight="0.2789421" />
       <window_info id="Web" order="6" sideWeight="0.50119334" side_tool="true" weight="0.37868634" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.43699732" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.38018742" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.37927565" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.3197051" side_tool="true" weight="0.35254693" />
       <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49865952" weight="0.5160858" />
@@ -413,15 +547,15 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.30294907" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49932975" weight="0.42352942" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49932975" weight="0.50119334" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.6152815" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.33242506" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.68029493" visible="true" weight="0.46631205" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.68029493" weight="0.46631205" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" weight="0.22117962" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.41713747" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Translate" order="4" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -429,7 +563,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="10" weight="0.24952015" />
+      <window_info anchor="right" id="Structure" order="10" weight="0.24858756" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.32939914" />
     </layout>
   </component>
@@ -437,62 +571,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar!/com/fasterxml/jackson/databind/cfg/ConfigOverride.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="10" selection-start-line="13" selection-start-column="4" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -560,34 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar!/com/netflix/loadbalancer/IRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancerRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar!/com/netflix/loadbalancer/IRule.class" />
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancerRule.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IRule.java" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -734,57 +788,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="83">
-            <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/myrule/RandomRule_deepz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="1330">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
             <element signature="method#initWithNiwsConfig#0;class#RandomRule_deepz#0" />
-            <element signature="e#1064#1105#1" />
-            <element signature="e#1268#1320#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/cfgbeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/myrule/MySlefRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/cfgbeans/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/cfgbeans/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/DeptConsumer9001_Feign_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="361">
+            <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-9001/src/main/java/com/lanqiao/cloud/DeptConsumer9001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/lanqiao/springcloud/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/lanqiao/cloud/controller/DeptController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>
